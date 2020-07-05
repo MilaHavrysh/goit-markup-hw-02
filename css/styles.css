@@ -105,14 +105,14 @@ body {
 /*Секция Чем мы занимаемся*/
 
 .our-work .our-work-description {
-  color: var(--text-light-theme-color);
+  color: var(--text-dark-theme-color);
   font-weight: 700;
-  line-height: 1.14px;
+  line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
 }
 .our-work .our-work-container {
-  background: var(--dark-background-color);
+  background: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
   left: 1015px;
@@ -128,13 +128,22 @@ body {
   color: var(--title-light-theme-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
+  text-align: center;
 }
 .our-team .our-team-description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
+  text-align: center;
 }
+.our-team-card {
+  width: 270px;
+  height: 422px;
+  left: 215px;
+  top: 1785px;
+}
+
 /*Секция Footer*/
 .footer .logo {
   color: var(--text-dark-theme-color);
@@ -149,9 +158,14 @@ body {
 .footer-logo-accent {
   color: var(--accent-color);
 }
-.footer-address-item,
-.footer-address-link {
+.footer-address-item {
   color: var(--text-dark-theme-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+}
+.footer-address-link {
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
@@ -166,11 +180,14 @@ body {
   color: var(--text-dark-theme-color);
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
 }
+
+/*Портфолио*/
 
 .portfolio-filtr-button {
   background-color: var(--button-filter-color);
@@ -186,7 +203,8 @@ body {
   font-size: 16px;
   line-height: 1.63;
 }
-.portfolio-filtr-button:hover {
+.portfolio-filtr-button:hover,
+.portfolio-filtr-button:focus {
   background-color: var(--accent-color);
 }
 .portfolio-item-title {
