@@ -137,6 +137,12 @@ body {
   line-height: 1.19;
   text-align: center;
 }
+.our-team-card {
+  width: 270px;
+  height: 422px;
+  left: 1115px;
+  top: 1785px;
+}
 
 /*Секция Footer*/
 .footer .logo {
